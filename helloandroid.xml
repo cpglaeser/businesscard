@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiant"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/udacity"
+        android:layout_width="match_parent"
+        android:layout_height="240sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/one"
+        android:text="@string/Company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="48dp"
+        android:paddingBottom="24dp"
+        android:paddingLeft="74dp"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/phonenumber"
+        android:drawableLeft="@drawable/phone"
+        android:drawablePadding="8dp"
+        android:autoLink="phone"
+        android:textColorLink="@android:color/white"
+        android:text="@string/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="32dp"
+        android:paddingBottom="16dp"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/web"
+        android:drawableLeft="@drawable/globe"
+        android:drawablePadding="8dp"
+        android:autoLink="web"
+        android:textColorLink="@android:color/white"
+        android:text="@string/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="32dp"
+        android:paddingBottom="16dp"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/address"
+        android:text="@string/street"
+        android:textColorLink="@android:color/white"
+        android:drawableLeft="@drawable/location"
+        android:drawablePadding="8dp"
+        android:autoLink="map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="32dp"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
